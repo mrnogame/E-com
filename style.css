@@ -1,0 +1,251 @@
+.logo{
+    font-size: 100px;
+    margin: auto;
+    text-align: center;
+    background-attachment: fixed;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px; 
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    
+}
+
+.body{
+    background-color: bisque;
+}
+
+/* h1{
+    background-color: darkgoldenrod;
+    
+} */
+.logo{
+    background-color: darkgoldenrod; 
+    transition: 1s;
+    width: 900px;
+    margin: auto;
+}
+.nav-bar {
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    
+    transition:0.5s ;
+    width: 900px;
+    margin: auto;
+   
+}
+a{
+    color: white;
+    font: 1em ;
+    font-size: 30px;
+  
+}
+.car{
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    padding: 5px 50px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    width: 0.5px;
+    position: relative;
+    left: 1600px;
+    
+}
+
+.imgcar {
+    width: 30px;
+    text-align: right;
+}
+
+
+.prod {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    
+}
+.img{
+    width: 200px;
+}
+.articoli{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    border: 10px, grey;
+    padding: 50px;
+    margin: 20px;
+    
+}
+.mostraDetagli{
+    margin: 10px;
+}
+
+p{
+    font-size: large;
+    font-family: fantasy;
+    font-style: italic;
+    background-color: black;
+    color: white;
+    box-shadow: 5px;
+    border-top-right-radius: 2000px;
+    border-top-left-radius: 3000px;
+    border-bottom-left-radius: 3000px;
+    border-bottom-right-radius: 2000px;
+    
+   
+}
+.totaleDaPagare{
+    background-color: grey;
+    text-align: right;
+    margin: 5px;
+    padding: 5px;
+    border-top-left-radius: 200px;
+
+}
+
+.hidden{
+    display: none;
+}
+
+li{
+    background-color: darkgoldenrod;
+    padding: 2px;
+    margin: 5px;
+}
+.numProd{
+    text-align: right;
+    
+    width: 20px;
+   
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+
+    
+
+    
+}
+
+#numeroprodotti{
+    position: relative;
+    left: 25px;
+    color: black;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    top: -15px;
+    right: 0;
+    font-size: 20px;
+    
+
+}
+.btn{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+/* .logo{
+    font-size: 100px;
+   
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 5em;
+    position: center;
+   
+}
+h1{
+    background-color: darkgoldenrod;
+    
+    margin: auto;
+    position: static;
+ }
+h2{
+    font-size: medium;
+    background-color: bisque;
+    text-align: center;
+}
+p{
+    font-size: small;
+    text-align: center;
+    background-color: cornsilk;
+}
+.totaleDaPagare{
+    font-size: large;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.nav-bar{
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    background-color:black;
+    position: relative;
+    color: whitesmoke;
+    
+}
+
+
+.nav-bar a{
+    color: white;
+    font-size: 0.5em;
+}
+.img-car {
+    text-align: right;
+    width: 40px;
+   
+
+}
+
+
+
+
+
+
+.img{
+    width: 200px;
+    
+    height: auto;
+    display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 1em;
+} 
+
+  
+.btn{
+    background-color: beige;
+    position: relative;
+    box-shadow: 1cm;
+    font-family: "Allerta Stencil", sans-serif;
+    margin: 2px;
+   
+  }
+.prodotto{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    
+}
+
+// <p> ${desc}</p> 
+
+
+  
+  
+
+    */

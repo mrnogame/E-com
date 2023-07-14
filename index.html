@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meglio Usato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header class="header">
+    <h1 class="logo">Meglio Usato s.r.l</h1>
+    <nav class="nav-bar">
+        <a href="index.html">Home</a>
+        <a href="Telefono.html">Telefono</a>
+        <a href="pc.html">Computer</a>
+        <a href="watch.html">Watch</a>
+    </nav>
+    
+    
+    <div class="car">
+      <div class="numProd">
+        <div id="numeroprodotti">0</div>
+    </div>
+        <img class="imgcar" src="img/Carrello.png" alt="carrello" >
+    </div>
+
+    <div class="showBasket">
+      <button  onclick="">Mostra Carrello</button>
+      <button onclick="">Chiudi Carrello</button>
+    </div>
+
+    <div>
+        <p id="totale" class="totaleDaPagare"></p>
+    </div>
+
+</header> 
+<body class="body">
+    
+    <div class="prod">
+            <div class="articoli">
+            <img class="img" src="img/SmsgPhone.webp" alt="img Tel" title="samsung galaxyA23" > <br>
+            <h2>Telefono 1</h2>
+            <p>Prezzo: 299 €</p>
+            <div class="info">
+            <button class="mostraDetagli" onclick="showDetails('dettagliotel1')">Dettagli</button> <br> 
+            <div id="dettagliotel1" class="hidden">
+                <ul>
+                  <li>OS: Android</li>
+                  <li>Ram: 8 GB</li>
+                  <li>Peso: 3 KG</li>
+                </ul>
+              </div>
+            <button class="btn" onclick="aggProd(tel1)">Aggiungi al carrello</button>
+            </div>
+        </div>
+            
+            <div class="articoli">
+            <img class="img" src="img/Motorolla.webp" alt="img Tel" title="Motorola" >  <br>
+            <h2>Telefono 2</h2>
+            <p>Prezzo: 599 €</p>
+            <div class="info">
+            <button class="mostraDetagli" onclick="showDetails('dettagliotel2')">Dettagli</button> <br>
+            <div id="dettagliotel2" class="hidden">
+                <ul>
+                  <li>OS: Android</li>
+                  <li>Ram: 8 GB</li>
+                  <li>Peso: 3 KG</li>
+                </ul>
+              </div>
+            <button class="btn" onclick="aggProd(tel2)">Aggiungi al carrello</button> <br>
+            </div>
+        </div>
+        
+     
+            <div class="articoli">      
+            <img class="img" src="img/Iphone.webp" alt="img Tel" title="Iphone" > <br>
+            <h2>Telefono 3</h2>
+            <p>Prezzo: 199 €</p>
+            <div class="info">
+            <button class="mostraDetagli" onclick="showDetails('dettagliote3')">Dettagli</button> <br>
+            <div id="dettagliote3" class="hidden">
+                <ul>
+                  <li>OS: Android</li>
+                  <li>Ram: 8 GB</li>
+                  <li>Peso: 3 KG</li>
+                </ul>
+              </div>
+            <button class="btn" onclick="aggProd(tel3)">Aggiungi al carrello</button>  <br>
+            </div>
+        </div> 
+            
+
+
+
+     <div class="articoli">                
+            <img class="img" src="img/MacBook.jpeg" alt="img computer" title="mcbook"> <br>
+            <h2>Computer 1</h2> <br>
+            <p>Prezzo: 699 € </p>
+        <div class="info">
+            <button class="mostraDetagli" onclick="showDetails('dettagliopc1')">Dettagli</button> <br>
+            <div id="dettagliopc1" class="hidden">
+                <ul>
+                  <li>OS: Android</li>
+                  <li>Ram: 8 GB</li>
+                  <li>Peso: 3 KG</li>
+                </ul>
+              </div>
+            <button class="btn" onclick="aggProd(pc1)">Aggiungi al carrello</button> <br>
+           
+        </div>
+     </div>
+        
+
+        
+            <div class="articoli">           
+            <img class="img" src="img/Lenovo.webp" alt="img Tel" title="Lenovo" ><br>
+            <h2>Computer 2</h2>
+            <p>Prezzo: 799 €</p>
+            <div class="info">
+            <button class="mostraDetagli" onclick="showDetails('dettagliopc2')">Deagli</button> <br>
+           <div id="dettagliopc2" class="hidden">
+                <ul>
+                  <li>OS: Android</li>
+                  <li>Ram: 8 GB</li>
+                  <li>Peso: 3 KG</li>
+                </ul>
+              </div>
+            <button class="btn" onclick="aggProd(pc2)">Aggiungi al carrello</button><br>
+            </div>
+        </div> 
+           
+        
+
+        
+            <div class="articoli">
+            <img class="img" src="img/HP.jpg" alt="img Tel" title="HP" > <br>
+            <h2>Computer 3</h2>
+            <p>Prezzo: 999 €</p>
+            <div class="info">
+            <button class="mostraDetagli" onclick="showDetails('dettagliopc3')">Dettagli</button> <br>
+            <div id="dettagliopc3" class="hidden">
+                <ul>
+                  <li>OS: Android</li>
+                  <li>Ram: 8 GB</li>
+                  <li>Peso: 3 KG</li>
+                </ul>
+              </div>
+            <button class="btn" onclick="aggProd(pc3)">Aggiungi al carrello</button> <br>
+            </div>
+        </div>
+            
+
+
+
+
+            <div class="articoli">
+            <img class="img" src="img/SmW1.webp" alt="img Tel" title="Watch" ><br>
+            <h2>Watch 1</h2>
+            <p>Prezzo: 199 €</p>
+            <div class="info">
+            <button class="mostraDetagli" onclick="showDetails('dettaglioWatch1')">Dettagli</button> <br>
+            <div id="dettaglioWatch1" class="hidden">
+                <ul>
+                  <li>OS: Android</li>
+                  <li>Ram: 8 GB</li>
+                  <li>Peso: 3 KG</li>
+                </ul>
+              </div>
+            <button class="btn" onclick="aggProd(watch1)">Aggiungi al carrello</button> <br>
+            </div> 
+        </div>
+            
+        
+        
+        
+            <div class="articoli">
+            <img class="img" src="img/AppleWa.webp" alt="img Tel" title="Apple Watch" ><br>
+            <h2>Watch 2</h2>
+            <p>Prezzo: 299 €</p>
+            <div class="info">
+            <button class="mostraDetagli" onclick="showDetails('dettaglioWatch2')">Dettagli</button> <br>
+            <div id="dettaglioWatch2" class="hidden">
+                <ul>
+                  <li>OS: Android</li>
+                  <li>Ram: 8 GB</li>
+                  <li>Peso: 3 KG</li>
+                </ul>
+              </div>
+            <button class="btn" onclick="aggProd(watch2)">Aggiungi al carrello</button> <br>
+        </div>
+        </div>
+           
+        
+        
+        
+
+        
+
+        
+            <div class="articoli">
+            <img class="img" src="img/SMw2.webp" alt="img Tel" title="smGalaxy2" > <br>
+            <h2>Watch 3</h2>
+            <p>Prezzo: 399 €</p>
+            <div class="info">
+            <button class="mostraDetagli" onclick="showDetails('dettaglioWatch3')">Dettagli</button> <br>
+            <div id="dettaglioWatch3" class="hidden">
+                <ul>
+                  <li>OS: Android</li>
+                  <li>Ram: 8 GB</li>
+                  <li>Peso: 3 KG</li>
+                </ul>
+              </div>
+            <button class="btn" onclick="aggProd(watch3)">Aggiungi al carrello</button> <br>
+            </div>
+        </div>
+           
+           
+    </div>
+   
+
+
+
+
+<script src="script.js"></script>  
+<script src="telefono.js"></script>  
+<script src="pc.js"></script>
+<script src="watch.js"></script>
+</body>
+</html>
